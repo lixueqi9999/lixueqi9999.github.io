@@ -1,66 +1,244 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Welcome to Xueqi's Homepage</title>
+<html lang="en">
+  <head>
+    <title>Keren Zhou's Homepage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Keren Zhou's Homepage">
+    <meta name="author" content="Keren Zhou">
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/site.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script language="JavaScript" type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+
 	</head>
-	<body>
-		
-		<div id="container" style="width:100%;height:100%">
-			
-			<div id="header" style="height:50px;width:100%;"></div>
-			
-			<div id="left_empty" style="height:600px;width:20%;float:left;"></div>
-			
-			<div id="two_col" style="height:100%;width:60%;float:left;">
-				<div id="pic" style="height:273px;width:300px;float:left;">
-					<img src="./xdd.jpg" width=273 height=300 align="middle">
-				</div>
-				<div id="pic_left" style="height:300px;width:55%;float:left;">
-					<h1>Zhengyu Zhang</h1>
-					<table style="width:100%" cellspacing="12">
-						<tr>
-							<th valign="top">Address:</th>
-						<td>No.6 Kexueyuan South Road Zhongguancun </br> Haidian District Beijing,China</th>
-					</tr>
-					<tr>
-						<th>Email:</th>
-						<td>lixueqi@ncic.ac.cn</td>
-					</tr>
-					<tr>
-						<th>Tel.:</th>
-						<td>+86 13371760909</td>
-					</tr>
-				</table>
-				<br>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-				<a href="/blog.html"><b>Blog (in Chinese)</b></a>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-				<a href="/lxq_cv.pdf"><b>CV</b></a>
-				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-				<a href="/photography"><b>Gallery</b></a>
-			</div>
-			<div id="bio" style="height:100%;width:100%;float:right;text-align:left">
-				<br><br>I am a Master student at Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS), where I am working on Operating System, High Performance Computing and Graph Computing. You can check my <a href="/zhengyu_cv.pdf">CV here</a> to read more about me and my research. <a href="/blog.html">A blog</a> is also maintained to track my learning progress, as well as to share something I consider interesting.
-				<br><br>
-				Besides coding, I also like creative drawing. You'are invited to my personal <a href="/gallery">Art Gallery</a>!
-				<br><br>
-				<center><a href="/gallery"><img src="https://freemandealer.github.io/img/gallery.png" ></a></center>
+  
+    <body data-spy="scroll" data-target="#nav-bar">
+		<div class="head">
+			<div class="container" id="nav-bar">
+				<nav class="nav-content nav" role="tablist">
+				  <a class="nav-content-item nav-content-brand" href="#">Keren Zhou</a>
+				  <a class="nav-content-item active" href="#about">About</a>
+				  <a class="nav-content-item" href="#education">Education</a>
+				  <a class="nav-content-item" href="#experience">Experience</a>
+				  <a class="nav-content-item" href="#research">Research</a>
+				</nav>
 			</div>
 		</div>
-	</div>
-	<div id="footer" style="clear:both;text-align:center;">
-		<table style="width:100%" cellspacing="0">
-			<tr>
-				<td style="width:20%" ></td>
-			<td style="background-color:#888888;"><font color="white">Copyright © Li Xueqi</font></td>
-			<td style="width:20%" ></td>
-		</tr>
-	</table>
-	
-</div>
-</div>
-</body>
-</html>
+		<div class="container" id="bio">
+			<div class="row">
+				<div class="col-sm-3">
+				    <div id="photo">
+					</div>
+					<div class="contact">
+						<ul class="mail">
+							<li><i class="fa fa-map-marker"></i>Houston, TX</li>
+							<li><i class="fa fa-envelope-o"></i>kerenzhou@outlook.com</li>
+						</ul>
+						<ul class="social">
+							<li><a href="https://twitter.com/ZhouKeren"><i class="fa fa-twitter" title="twitter"></i></a></li>                   
+							<li><a href="https://kerenzhou.blogspot.com"><i class="fa fa-pencil" title="blog"></i></a></li>
+							<li><a href="https://cn.linkedin.com/in/kerenzhou"><i class="fa fa-linkedin" title="linkedin"></i></a></li>
+							<li><a href="https://github.com/Jokeren"><i class="fa fa-github-alt" title="github"></i></a></li>       
+							<li class="last-item"><a href="http://stackoverflow.com/users/1290983/chain-ro"><i class="fa fa-stack-overflow" title="stack-overflow"></i></a></li>
+						</ul>
+					</div>
+					<h3>News</h3>
+					<div class="news">
+						<p>
+						11/2017 Attend SC'17
+						</p>
+						<p>
+						10/2017 Refactor DeepPerf Solver (<a href="https://github.com/PAA-NCIC/DeepPerf/tree/master/Solver">DeepPerf</a>)
+						</p>
+						09/2017 Take part in <a href="https://github.com/OpenMPToolsInterface">Openmp Tools Interface</a>
+						</p>
+						<p>
+						08/2017 Enroll in <a href="http://www.rice.edu/">Rice</a>
+						</p>
+						<p>
+						07/2017 Take a vacation
+						</P>
+						<P>
+						06/2017 Attend ICS'17
+						</p>
+					    <p>
+						05/2017 Refactor gSpan (<a href="https://github.com/Jokeren/DataMining-gSpan">gBolt</a>)
+						</p>
+						<p>
+						04/2017 Update homepage
+						<p> 
+						03/2017 Keep contributing to <a href="https://github.com/torch/torch7">torch</a>
+						</p>
+						<p>
+						11/2016 Release blitz v0.1: <a href="https://github.com/PAA-NCIC/blitz/releases/tag/v0.1">blitz v0.1</a>
+						</p>
+						<p>
+						10/2016 Update blog: <a href="https://kerenzhou.blogspot.com/2016/10/programming-knl-architecture.html">Programming KNL--Architecture</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="content" id="about">
+						<h2>
+							About Me
+						</h2>
+						<p>
+						I am a graduate student in <a href="http://www.rice.edu/">Rice University</a>, advised by Professor <a href="https://www.cs.rice.edu/~johnmc/">John Mellor-Crummey</a>. Previously, I studied at <a href="http://english.ict.cas.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a> in Professor <a href="http://www.ncic.ac.cn/~tgm">Guangming Tan</a>'s <a href="https://github.com/PAA-NCIC">PAA</a> group. Prior to that, I was an undergraduate student in Yunnan University, advised by Professor Wei Zhou.
+						</p>
+						<p>Brief <a href="assets/cv.pdf">CV</a></p>
+					</div>
+					
+					<div class="content" id="education">
+						<h2>
+							Education
+						</h2>
+						<p>
+							<i class="fa fa-graduation-cap"></i> Ph.D. Computer Science, <i>2017 - 2023 (expected)</i>
+							<dd>School of Engineering, Rice University</dd>
+						</p>
+						<p>
+							<i class="fa fa-university"></i> M.S. Computer Science, <i>2014 - 2017</i>
+							<dd>Institute of Computing Technology, Chinese Academy of Sciences</dd>
+						</p>
+						<p>
+							<i class="fa fa-graduation-cap"></i> B.E. Network Engineering, <i>2010 - 2014</i>
+							<dd>School of Software, Yunnan University</dd>
+						</p>
+					</div>
+					
+					<div class="content" id="experience">
+						<h2>
+							Experience
+						</h2>
+						<p>
+						<i class="fa fa-book"></i> Research Intern, <i>Apr.2017 - Aug.2017</i>
+						<dd>Nvidia Inc, Beijing</dd>
+						</p>
+						<p>
+						<i class="fa fa-book"></i> Research Assistant, <i>Jun.2015 - Aug.2017</i>
+						<dd>Nvidia-Sugon-ICT Deep Learning Joint Laboratory, Institute of Computing Technology</dd>
+						</p>
+						<p>
+						<i class="fa fa-book"></i> Research Assistant, <i>Jan.2013 - July.2014</i>
+						<dd>Intelligent Web Laboratory, School of Software, Yunnan University</dd>
+						</p>
+						<p>
+						<i class="fa fa-code"></i> SDE Intern, <i>Oct.2013 - Feb.2014</i>
+						<dd>Baidu Inc, Beijing</dd>
+						</p>
+					</div>
+					
+					<div class="content" id="research">
+						<h2>
+							Research
+						</h2>
+						<p>My major research areas are <strong>parallel systems and concurrent algorithms</strong>. I focus on optimizing parallel systems and developing efficient concurrent data structures on modern architectures. I also participate in data mining contests as a hobby.</p>
+						<h3>
+							Projects <a href="projects.html" style="color:green">(Full List)</a>
+						</h3>
+						<ul>
+							<li>
+								<h4>
+									GPU Performance Analysis Tools
+								</h4>
+								<dd><i>March.2017 - current</i></dd>
+								<dd>We have proposed a paper about GPU performance analysis. Beyond the previous work, we are going to extend our framework for wider applications, multiple kernels, and several architectures. Besides, designing user-friendly interfaces is also a primary goal.
+								</dd>
+							</li>
+						</ul>
+						<h3>
+							Publications <a href="papers.html" style="color:green">(Full List)</a>
+						</h3>
+							<ul>
+								<li><span style="color:green">[TPDS'17]</span> <a href="http://ieeexplore.ieee.org/abstract/document/8066340/">Quadboost: A Scalable Concurrent Quadtree</a>
+								<dd><strong>Keren Zhou</strong>, Guangming Tan, Wei Zhou</dd>
+								<dd><em>IEEE Transactions on Parallel and Distributed Systems</em></dd>
+								</li>
+								<li><span style="color:green">[ICS'17]</span> <a href="assets/ICS17.pdf">A Performance Analysis Framework for Exploiting GPU Microarchitectural Capability</a>
+								<dd><strong>Keren Zhou</strong>, Guangming Tan, Xiuxia Zhang, Chaowei Wang, Ninghui Sun</dd>
+								<dd><em>26th ACM International Conference on Supercomputing</em></dd>
+								</li>
+								<li><span style="color:green">[PPoPP'17]</span> <a href="https://dl.acm.org/citation.cfm?id=3018755">Understanding the GPU Microarchitecture to Achieve Bare-Metal Performance Tuning</a>
+								<dd>Xiuxia Zhang, Guangming Tan, Shuangbai Xue, Jiajia Li, <strong>Keren Zhou</strong>, Mingyu Chen</dd>
+								<dd><em>22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em></dd>
+								</li>
+								<li><span style="color:green">[CIC'15]</span> <a href="assets/BF-MapReduce.pdf">BF-MapReduce: A bloom filter Based Efficient Lightweight Search</a>
+								<dd>Zilong Tan, <strong>Keren Zhou</strong>, Hao Zhang, Wei Zhou</dd>
+								<dd><em>2015 IEEE International Conference on Collaboration and Internet Computing</em></dd>
+								</li>
+								<li><span style="color:green">[ICDM'15]</span> <a href="assets/Mobile Mining.pdf">Multi-Classes Feature Engineering with Sliding Window for Purchase Prediction in Mobile Commerce</a>
+								<dd>Qiang Li, Maojie Gu, <strong>Keren Zhou</strong>, Xiaoming Sun</dd>
+								<dd><em>2015 IEEE International Conference on Data Mining Workshop</em></dd>
+								</li>
+							</ul>
+						<h3>
+							Talks
+						</h3>
+						<ul class="talks">
+							<li><a href="assets/ICS17_slides.pdf">A Performance Analysis Framework for Exploiting GPU Microarchitectural Capability</a>
+							<dd><i>June.2017</i>, Northwestern University, Chicago</dd>
+							<dd>Presented our ICS'17 works.</dd>
+							</li>
+						</ul>
+						<ul class="talks">
+							<li><a href="assets/Deep Learning on Modern Architectures.pdf">Deep Learning on Modern Architectures</a>
+							<dd><i>April.2017</i>, Institute of Computing Technology, Chinese Academy of Sciences</dd>
+							<dd>Discussed how state-of-the-art deep learning libraries optimize computations by utilizing architectural features.</dd>
+							</li>
+						</ul>
+						<ul class="talks">
+							<li><a href="assets/Convolution Methods.pdf">Convolution Methods</a>
+							<dd><i>July.2016</i>, Institute of Computing Technology, Chinese Academy of Sciences</dd>
+							<dd>Introduced various kinds of convolution methods and analyzed their complexities, memory consumptions, and data access patterns.</dd>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var lastId, 
+		topMenu = $("#nav-bar"),
+		topMenuHeight = topMenu.outerHeight()+20,
+		menuItems = topMenu.find("a"),
+		scrollItems = menuItems.map(function() {
+			var item = $($(this).attr("href"));
+			if (item.length) {
+				return item;
+			}
+		});
 
+		menuItems.click(function(e) {
+			var href = $(this).attr("href"),
+			topMenuHeight = topMenu.outerHeight() + 20,
+				offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 300);
+			e.preventDefault();
+		});
+
+		$(window).scroll(function() {
+			var fromTop = $(this).scrollTop() + topMenuHeight;
+
+			var cur = scrollItems.map(function() {
+				if ($(this).offset().top < fromTop) return this;
+			});
+			cur = cur[cur.length - 1];
+			var id = cur && cur.length ? cur[0].id : "";
+
+			if (lastId !== id) {
+				menuItems.filter("[href=#"+lastId+"]").removeClass("active");
+				lastId = id;
+				menuItems.filter("[href=#"+id+"]").addClass("active");
+			}
+		});
+	});
+	</script>
+</html>
