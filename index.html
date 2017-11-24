@@ -1,8 +1,8 @@
 
-<!-- saved from url=(0020)http://jokeren.tech/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
     <title>Xueqi Li's Homepage</title>
-    
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -10,11 +10,10 @@
     <meta name="author" content="Xueqi Li">
 	
     <!-- Bootstrap core CSS -->
-   
-    <link href="./lxq_files/bootstrap.min.css" rel="stylesheet">
-	<link href="./lxq_files/site.css" rel="stylesheet">
-	<link rel="stylesheet" href="./lxq_files/font-awesome.min.css">
-	<script language="JavaScript" type="text/javascript" src="./lxq_files/jquery-1.10.0.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/site.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script language="JavaScript" type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
 
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -26,11 +25,11 @@
 		<div class="head">
 			<div class="container" id="nav-bar">
 				<nav class="nav-content nav" role="tablist">
-				  <a class="nav-content-item nav-content-brand" href="http://lixueqi.com/#">Xueqi Li</a>
-				  <a class="nav-content-item active" href="http://lixueqi.com/about">About</a>
-				  <a class="nav-content-item" href="http://lixueqi.com/#education">Education</a>
-				  <a class="nav-content-item" href="http://lixueqi.com/#research">Research Project</a>
-				  <a class="nav-content-item" href="http://lixueqi.com/#publication">Publications</a>
+			  	  <a class="nav-content-item nav-content-brand" href="#">Xueqi Li</a>
+				  <a class="nav-content-item active" href="#about">About</a>
+				  <a class="nav-content-item" href="#education">Education</a>
+				  <a class="nav-content-item" href="#research">Research Projects</a>
+				  <a class="nav-content-item" href="#publication">Publications</a>
 				</nav>
 			</div>
 		</div>
@@ -39,9 +38,10 @@
 				<div class="col-sm-3">
 				    <div id="photo">
 					</div>
-
-					<div class="contact">
-						<!--
+					
+					<h1 style="margin-left: 45px;"> Xueqi Li </h1>
+					<!--<div class="contact">
+						
 						<ul class="mail">
 							<li><i class="fa fa-map-marker"></i>Xueqi Li</li>
 							<li><i class="fa fa-envelope-o"></i>lixueqi@ncic.ac.cn</li>
@@ -55,14 +55,10 @@
 							<li><a href="https://github.com/Jokeren"><i class="fa fa-github-alt" title="github"></i></a></li>       
 							<li class="last-item"><a href="http://stackoverflow.com/users/1290983/chain-ro"><i class="fa fa-stack-overflow" title="stack-overflow"></i></a></li>
 						</ul>
-						-->
-					</div>
-					<h3>News</h3>
+						
+					</div>-->
+					<h3 style="color: red">News</h3>
 					<div class="news">
-						<p>
-						12/2017 Attend HPCC'17
-						</p>
-
 						<p>
 						12/2017 Attend HPCC'17
 						</p>
@@ -80,6 +76,10 @@
 						<p>Brief <a href="http://jokeren.tech/assets/cv.pdf">CV</a></p>
 
 						<p> <b> Research interest </b> His research interests include VLSI design, electronic design automation, computer architecture, and embedded systems design. His current research projects include novel memory architecture, interconnect architecture, and heterogeneous system architecture. Specifically, recent research projects focus on technology-driven and application-driven design/architecture innovations. The technology-driven research projects include EDA/architecture for emerging memory technologies and 3D integrated circuits, hardware security, and heterogeneous computing with CPU/GPU/FPGA. The application-driven research projects include novel architectures for artificial intelligence (AI), such as computer architecture for deep learning neural network, neuromorphic computing, and bio-inspired computing, hardware acceleration for emerging applications such as bio-informatics applications, graphics analytics, and robotics oapplications.
+
+						My current research interests are: (1) Processing-in-memory architecture, with emphasis on emerging NVM. (2) Nonvolatile memory circuit/architecture design and optimization;  
+						Previously, I also worked on system-level synthesis and nonvolatile processor based energy harvesting system. Please check my google citation. 
+
 						</p>
 
 					</div>
@@ -106,7 +106,7 @@
 					
 					<div class="content" id="research">
 						<h3>
-							Research Project
+							Research Projects <a href="projects.html" style="color:green">(Full List)</a>
 						</h3>
 						<p>My major research areas are <strong>Algorithm and Architecture</strong>. Specifically, recent research projects focus on architecture acceleration for genomic applications, such as ...??? Prior to that, I also participated in <strong>Parallel Programming</strong>, such as acclerating large-scale genomic analysis using Spark.
 
@@ -115,7 +115,7 @@
 						<ul>
 							<li>
 								<h4>
-									Profiling lalal
+									Lambda: Life and Medical Biology Data Accelerator (λ-platform) (NSFC&973 Program: 6 Million RMB/5 Year)
 								</h4>
 								<dd><i>March.2017 - current</i></dd>
 								<dd>We have proposed a paper about GPU performance analysis. Beyond the previous work, we are going to extend our framework for wider applications, multiple kernels, and several architectures. Besides, designing user-friendly interfaces is also a primary goal.
@@ -126,7 +126,7 @@
 
 					<div class="content" id="publication">
 						<h3>
-							Publications <a href="http://jokeren.tech/papers.html" style="color:green">(Full List)</a>
+							Publications
 						</h3>
 							<ol>
 								<li><span style="color:green">[HPCC'17]</span> <a href="null">Quantifying and Mitigating Computational Inefficiency of Genomics Data Analysis</a>
@@ -138,6 +138,18 @@
 								<dd><em>The IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</em></dd>
 								</li>
 							</ol>
+					</div>
+
+					<div class="content" id="honor">
+						<h3>
+							Honors & Awards (selected)
+						</h3>
+						<ul>
+									2013 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp National Scholarship <br/>
+									2012 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp National Scholarship <br/>
+									2014 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Outstanding Bachelor Thesis of Hubei Province<br/>
+									2012 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp National GIS developing comptition, 1st prize<br/>
+						</ul>
 					</div>
 
 						<h3>

@@ -94,13 +94,13 @@ ul.social {
 }
 
 div#photo {
-	background-image: url("./self.jpg");
+	background-image: url("../assets/lxq.jpg");
 	height: 250px;
 	width: 220px;
 	/* padding-top: 10px; */
 	background-size: 90%;
 	background-repeat: no-repeat;
-	margin-left: 5px;
+	margin-left: 20px;
 	margin-top: 20px;
 	margin-bottom: -10px;
 }
