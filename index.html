@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -46,13 +46,13 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Research Projects</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#publication">Publication</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Service</a>
           </li>
         </ul>
       </div>
@@ -65,15 +65,14 @@
           <h1 class="mb-0">Xueqi
             <span class="text-primary">Li</span>
           </h1>
-          <div class="subheading mb-5">UC Santa Barbara, CA 93106
-            <a href="mailto:lixueqi@ncic.ac.cn">lixueqi@ucsb.edu</a>
+          <div class="subheading mb-5">Beijing, China
+            <a href="mailto:lixueqi@ncic.ac.cn">lixueqi@ict.ac.cn or lixueqi@ucsb.edu</a>
             <!--<a>Phone: +86-133-7176-0909</a>-->
           </div>
 
-
           	<p class="mb-5">I am a Ph.D. candidate in High Performance Computing Center at Institute of Computing Technology, Chinese Academy of Sciences with Prof. <a href="http://sourcedb.cas.cn/sourcedb_ict_cas/en/eictexpert/fas/200909/t20090917_2496720.html">Ninghui Sun</a> (ICT, CAS), Prof. <a href="http://www.ncic.ac.cn/~tgm">Guangming Tan</a> (ICT, CAS). I am also co-advised by Prof. <a href="http://www.ece.ucsb.edu/~yuanxie/">Yuan Xie</a> as a visiting student in Department of Electronic and Computer Engineering at UC Santa Barbara.
 
-          	<p class="mb-5">My research interests are in computer architecture, supercomputer, and bioinformatics. My recent research topic is: Architecture Innovations for Genomic Applications (application-driven efficient architecture, since 2018). Prior to that, I also participated in Parallel Programming, such as accelerating large-scale genomic analysis using Spark (application-driven scale-out system).</p>
+          	<p class="mb-5">Our group unique research on systems and architecture <a href="http://bestgenomics.com">(URSA)</a> is looking for undergraduate interns and graduate students. If you are interested in computer architecture processing-in-memory, parallel computing and bioinformatics. Please contact with me.</p>
 
         </div>
       </section>
@@ -121,54 +120,6 @@
         </div>
       </section>
 
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Research Projects</h2>
-
-          <!--<p>My major research areas are <strong>Algorithm and Architecture</strong>. Specifically, recent research projects focus on architecture acceleration for genomic applications, such as ...??? Prior to that, I also participated in <strong>Parallel Programming</strong>, such as acclerating large-scale genomic analysis using Spark.
-          </p>-->
-
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Architecture for Genomic Applications</h3>
-              Please read my most recent publications
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March, 2017 - current</span>
-            </div>
-          </div>
-
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Genomic Analysis Framework with In-memory Computing</h3>
-              <div class="subheading mb-3">(NSFC-973 Program: 6 Million RMB/5 Year)</div>
-              <p>We focused on massively parallel processing for computational genomics. We proposed an in-memory computing framework for genomic analysis. We provided algorithm-specific implementations and completed WGS analysis of NA12878 dataset  in 24 minutes on 2048 CPU cores. We published a github repository (https://github.com/fhyxz/GPF.git)</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July, 2016 - Dec, 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Profiling Genome Analysis Applications</h3>
-              <div class="subheading mb-3">(NSFC-973 Program: 6 Million RMB/5 Year)</div>
-              <p>We quantified micro-architectural inefficiency for genomic workloads and uncovered two kinds of opportunities for genomic domain-specific accelerator. I am familiar with major algorithms for genomics, and Intel® IA-32 Architecture Manuals.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December, 2014 - June, 2016</span>
-            </div>
-          </div>
-
-
-        </div>
-
-      </section>
-
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publication">
         <div class="my-auto">
           <h2 class="mb-5">Publication</h2>
@@ -177,48 +128,61 @@
           -->
           <ol>
 
+              <li>
+                  <span style="color:green">[JCST]</span><a href=""> PIM-Align: A Processing-in-Memory Architecture for FM-index Search Algorithm </a>
+                  <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Ninghui Sun</dd>
+                  <dd><em>Journal of Computer Science and Technology (JCST) <strong><i>(IF: 1.506)</i></strong></em></dd>
+              </li>
 
-          	    <li><span style="color:green">[MICRO'19]</span><a href=""> MEDAL: Scalable DIMM based Near Data Processing Accelerator for DNA Seeding Algorithm </a>
-                <dd>Wenqin Huangfu, <strong><i>Xueqi Li</i></strong>, Shuangchen Li, Xing Hu, Peng Gu, Yuan Xie</dd>
-                <dd><em>The 52nd IEEE/ACM International Symposium on Microarchitecture (MICRO-52)</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[MICRO'19]</span><a href=""> MEDAL: Scalable DIMM based Near Data Processing Accelerator for DNA Seeding Algorithm </a>
+                  <dd>Wenqin Huangfu, <strong><i>Xueqi Li</i></strong>, Shuangchen Li, Xing Hu, Peng Gu, Yuan Xie</dd>
+                  <dd><em>The 52nd IEEE/ACM International Symposium on Microarchitecture (MICRO-52)</em></dd>
+              </li>
 
-          	    <li><span style="color:green">[DAC'19]</span><a href="https://dl.acm.org/citation.cfm?id=3323475&preflayout=tabs"> Efficient System Architecture in the Era of Monolithic 3D: Dynamic Inter-tier Interconnect and Processing-in-Memory </a>
-                <dd>Dylan Stow, Itir Akgun, Wenqin Huangfu, Yuan Xie, <strong><i>Xueqi Li</i></strong>, Gabriel H. Loh</dd>
-                <dd><em>The 56th Design Automation Conference</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[DAC'19]</span><a href="https://dl.acm.org/citation.cfm?id=3323475&preflayout=tabs"> Efficient System Architecture in the Era of Monolithic 3D: Dynamic Inter-tier Interconnect and Processing-in-Memory </a>
+                  <dd>Dylan Stow, Itir Akgun, Wenqin Huangfu, Yuan Xie, <strong><i>Xueqi Li</i></strong>, Gabriel H. Loh</dd>
+                  <dd><em>The 56th Design Automation Conference</em></dd>
+              </li>
 
-                <li><span style="color:green">[AACBB'19]</span><a href="https://aacbb-workshop.github.io"> Scalable In-Memory System for Genomic Analysis <i>(publised work)</i></a>
-                <dd><strong><i>Xueqi Li</i></strong></dd>
-                <dd><em>HPCA 2019 Workshop on Accelerator Architecture In Computational Biology and Bioinformatics</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[AACBB'19]</span><a href="https://aacbb-workshop.github.io"> Scalable In-Memory System for Genomic Analysis <i>(publised work)</i></a>
+                  <dd><strong><i>Xueqi Li</i></strong></dd>
+                  <dd><em>HPCA 2019 Workshop on Accelerator Architecture In Computational Biology and Bioinformatics</em></dd>
+              </li>
 
-                <li><span style="color:green">[ICPP'18]</span><a href="https://dl.acm.org/citation.cfm?doid=3225058.3225134"> Accelerating FM-index Search for Genomic Data Processing</a>
-                <dd>Yuanrong Wang, <strong><i>Xueqi Li</i></strong>, Dawei Zang, Guangming Tan, Ninghui Sun</dd>
-                <dd><em>The 47th International Conference on Parallel Processing</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[ICPP'18]</span><a href="https://dl.acm.org/citation.cfm?doid=3225058.3225134"> Accelerating FM-index Search for Genomic Data Processing</a>
+                  <dd>Yuanrong Wang, <strong><i>Xueqi Li</i></strong>, Dawei Zang, Guangming Tan, Ninghui Sun</dd>
+                  <dd><em>The 47th International Conference on Parallel Processing</em></dd>
+              </li>
 
-                <li><span style="color:green">[AACBB'18 Workshop]</span><a href="https://aacbb-workshop.github.io"> The Genomic Benchmark Suite: Characterization and Architecture Implications</a>
-                <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Yuanrong Wang, Ninghui Sun</dd>
-                <dd><em>HPCA 2018 Workshop on Accelerator Architecture In Computational Biology and Bioinformatics</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[AACBB'18]</span><a href="https://aacbb-workshop.github.io"> The Genomic Benchmark Suite: Characterization and Architecture Implications</a>
+                  <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Yuanrong Wang, Ninghui Sun</dd>
+                  <dd><em>HPCA 2018 Workshop on Accelerator Architecture In Computational Biology and Bioinformatics</em></dd>
+              </li>
 
-                <li><span style="color:green">[PPoPP'18]</span><a href="https://dl.acm.org/citation.cfm?doid=3178487.3178511"> High-performance genomic analysis framework with in-memory computing</a>
-                <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Bingchen Wang, Ninghui Sun</dd>
-                <dd><em>The 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[PPoPP'18]</span><a href="https://dl.acm.org/citation.cfm?doid=3178487.3178511"> High-performance genomic analysis framework with in-memory computing</a>
+                  <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Bingchen Wang, Ninghui Sun</dd>
+                  <dd><em>The 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em></dd>
+              </li>
 
-                <li><span style="color:green">[HPCC'17]</span> <a href="null"> Quantifying and Mitigating Computational Inefficiency of Genomics Data Analysis</a>
-                <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Chuangming Zhang, Xu Li, Zhonghai Zhang, Ninghui Sun</dd>
-                <dd><em>The 19th International Conferences on High Performance Computing and Communications</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[HPCC'17]</span> <a href="null"> Quantifying and Mitigating Computational Inefficiency of Genomics Data Analysis</a>
+                  <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Chuangming Zhang, Xu Li, Zhonghai Zhang, Ninghui Sun</dd>
+                  <dd><em>The 19th International Conferences on High Performance Computing and Communications</em></dd>
+              </li>
 
-                <li><span style="color:green">[BIBM'16]</span> <a href="https://ieeexplore.ieee.org/document/7822614"> Accelerating Large-Scale Genomic Analysis with Spark</a>
-                <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Chuangming Zhang, Xu Li, Zhonghai Zhang, Ninghui Sun</dd>
-                <dd><em>The IEEE International Conference on Bioinformatics and Biomedicine</em></dd>
-                </li>
+              <li>
+                  <span style="color:green">[BIBM'16]</span> <a href="https://ieeexplore.ieee.org/document/7822614"> Accelerating Large-Scale Genomic Analysis with Spark</a>
+                  <dd><strong><i>Xueqi Li</i></strong>, Guangming Tan, Chuangming Zhang, Xu Li, Zhonghai Zhang, Ninghui Sun</dd>
+                  <dd><em>The IEEE International Conference on Bioinformatics and Biomedicine</em></dd>
+              </li>
 
-              </ol>
+          </ol>
         </div>
       </section>
 
@@ -234,7 +198,7 @@
           	
           	<li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Ray Wu Prize - 2019
+              Ray Wu Prize (13 Winners in mainland China, Hong Kong, Taiwan, or Singapore) - 2019
             </li>
             
           	<li>
@@ -286,6 +250,28 @@
               <i class="fa-li fa fa-trophy text-warning"></i>
               1<sup>st</sup>
               National GIS Developing Competition - 2012
+            </li>
+            <!--<li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005</li>
+              -->
+          </ul>
+        </div>
+
+            <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Service">
+        <div class="my-auto">
+          <h2 class="mb-5">Professional Activities</h2>
+          <ul class="fa-ul mb-0">
+
+          	<li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Artifact Evaluation Committee, PPoPP, 2021
+            </li>
+          	
+          	<li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Session Chair, NPC, 2020
             </li>
             <!--<li>
               <i class="fa-li fa fa-trophy text-warning"></i>
